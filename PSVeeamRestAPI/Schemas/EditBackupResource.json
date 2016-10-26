@@ -1,0 +1,13 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"title": "Edit Tenant Backup Resource JSON Schema",
+
+	"type": "object",
+
+  "properties": {
+    "repositoryDisplayName": { "type": "string" },
+    "repositoryQuota": { "type": "integer" },
+    "enableWanAccelerator": { "type":  "boolean"},
+    "wanAcceleratorName": { "type": "string"}
+  }
+}

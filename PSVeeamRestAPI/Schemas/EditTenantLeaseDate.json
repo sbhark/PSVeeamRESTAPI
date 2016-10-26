@@ -1,0 +1,10 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"title": "Edit Veeam Tenant Password JSON Schema",
+
+	"type": "object",
+
+  "properties": {
+    "leaseExpiration": { "type": "string" }
+  }
+}

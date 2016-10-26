@@ -1,0 +1,13 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"title": "New Veeam Tenant JSON Schema",
+
+	"type": "object",
+
+  "properties": {
+    "username": { "type": "string" },
+    "password": { "type": "string" },
+    "leaseExpiration": { "type": "string" }
+  },
+  "required": ["username", "password"]
+}

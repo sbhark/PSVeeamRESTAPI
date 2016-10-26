@@ -1,0 +1,17 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"title": "Edit Tenant Backup Resource JSON Schema",
+
+	"type": "object",
+
+  "properties": {
+    "platform": { "type": "string" },
+    "hwPlanUId": { "type": "string" },
+    "hwPlanName": { "type": "string" },
+    "cpuQuota": { "type": "integer" },
+    "memoryQuota": { "type": "integer" },
+    "datastoreQuota": { "type": "integer" },
+    "enableWanAccelerator": { "type": "boolean" },
+    "wanAcceleratorId": { "type": "string" }
+  }
+}
