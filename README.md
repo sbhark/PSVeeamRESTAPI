@@ -4,6 +4,7 @@ JSON based RESTful API that uses Veeam's PowerShell application layer to execute
 # Supported Veeam Backup and Replication Versions
 Production Ready:
 Veeam 9.0.X
+Veeam 9.5 (Limited Cmdlets)
 
 In Development:
 Veeam 9.5.X
